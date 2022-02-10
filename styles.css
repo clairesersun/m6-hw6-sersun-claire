@@ -1,0 +1,165 @@
+h2, h1, h3, aside, aside p{
+    font-family: Sacramento, sans-serif;
+}
+
+* {
+    font-family: Cairo, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    float: left;
+    box-shadow: 5px 5px 10px;
+    margin: 20px;
+}
+
+article p {
+    padding: 20px;
+    border: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #222222;
+    color: #F8F0E3;
+    padding: 10px;
+    margin: 0px;
+    border-top: 5px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    text-align: center;
+}
+
+body {
+    background-image: url('assets/prism.png');
+    margin: 0px;
+
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 40px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    color: #F8F0E3;
+    background-color: #b76e79;
+    padding: 30px;
+    margin: 0px;
+    border: 0px;
+    flex: none;
+    align-content: center;
+
+    
+}
+
+h3  {
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    flex: 1;
+}
+
+span {
+    overflow: visible;
+    max-height: 2em;
+    border-top: 0px;
+    border-right: 3px;
+    border-bottom: 0px;
+    border-left: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav {
+    flex: none;
+    margin: 20px;
+    padding: 20px 30px 15px 30px;
+}
+
+article {
+    max-width: 700px;
+}
+
+aside {
+    max-width: 300px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.rosegold {
+    border-color: #b76e79;
+    border-style: solid;
+}
+
+aside img {
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: dimgray;
+}
+
+article, aside{
+    background-color: #F8F0E3;
+    padding: 10px;
+    margin: 30px;
+}
+
+header {
+    background-color: #F8F0E3;
+    color: black;
+}
